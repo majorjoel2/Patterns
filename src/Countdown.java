@@ -5,6 +5,7 @@ public class Countdown {
 
     public static String pattern( int n){
         //Happy Coding ^_^
+        return "";
     }
 
     public static void main(String[] args){

@@ -1,3 +1,47 @@
+Pokeball
+==============
+
+Task:
+---------
+
+Write a program that outputs the following:
+
+       @@@@@@@
+      @@@@@@@@@@
+     @@@@@@@@@@@
+    @@@@@@@@@@@@
+    |||||||||[“”””]|||||||||
+    |||||||||[…….]|||||||||
+    OOOOOOOOOOOOOOOOO
+     OOOOOOOOOOOOOOO
+      OOOOOOOOOOOOO
+       OOOOOOOOOO
+
+Rules/Notes:
+--------------
+Each line can be output with a call to println
+
+Pikachu
+===========
+
+Task:
+---------
+
+Write a static method within Pikachu class that outputs the following:
+
+     (\__/) 
+     (o^.^) 
+    z(_(“)(“)
+    
+Rules/Notes:
+---------------
+
+The static method should return one string. Use \n in the string to jump to the next line.
+
+
+
+
+
 Countdown
 ===============
 
