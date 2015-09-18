@@ -4,8 +4,41 @@
 public class Countdown {
 
     public static String pattern( int n){
-        //Happy Coding ^_^
-        return "";
+    	if (n < 1) {
+    		return "";
+    	}
+    	String end = "";
+		if (n >= 10) {
+			end = end + "10987654321\n";
+		}
+		if (n >= 9) {
+			end = end + "987654321\n";
+		}
+		if (n >= 8) {
+			end = end + "87654321\n";
+		}
+		if (n >= 7) {
+			end = end + "7654321\n";
+		}
+		if (n >= 6) {
+			end = end + "654321\n";
+		}
+		if (n >= 5) {
+			end = end + "54321\n";
+		}
+		if (n >= 4) {
+			end = end + "4321\n";
+		}
+		if (n >= 3) {
+			end = end + "321\n";
+		}
+		if (n >= 2) {
+			end = end + "21\n";
+		}
+		if (n >= 1) {
+			end = end + "1\n";
+		}
+		return end;
     }
 
     public static void main(String[] args){

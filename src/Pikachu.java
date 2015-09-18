@@ -4,7 +4,7 @@
 public class Pikachu {
 
     public static String makePikachu(){
-        return "";
+        return " (\\__/)\n (o^.^)\nz(_(“)(“)";
     }
 
     public static void main(String[] args) {
