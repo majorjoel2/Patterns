@@ -4,41 +4,43 @@
 public class Countdown {
 
     public static String pattern( int n){
+    	/*
+    	 * This was my original code
+    	 * 
     	if (n < 1) {
     		return "";
     	}
-    	String end = "";
-		if (n >= 10) {
-			end = end + "10987654321\n";
-		}
-		if (n >= 9) {
-			end = end + "987654321\n";
-		}
-		if (n >= 8) {
-			end = end + "87654321\n";
-		}
-		if (n >= 7) {
-			end = end + "7654321\n";
-		}
-		if (n >= 6) {
-			end = end + "654321\n";
-		}
-		if (n >= 5) {
-			end = end + "54321\n";
-		}
-		if (n >= 4) {
-			end = end + "4321\n";
-		}
-		if (n >= 3) {
-			end = end + "321\n";
-		}
-		if (n >= 2) {
-			end = end + "21\n";
-		}
-		if (n >= 1) {
-			end = end + "1\n";
-		}
-		return end;
+    	int loop1 = 0;
+    	int loop2 = 0;
+    	int loop3 = n;
+    	int loop4 = n;
+    	int loop5 = n;
+    	int int1;
+    	String string1 = "";
+    	while (loop1 < n) {
+    		loop1++;
+    		loop2 = 0;
+    		loop4 = loop5;
+    		while (loop2 < loop3) {
+    			int1 = loop4;
+    			string1 = string1 + Integer.toString(int1);
+    			loop2++;
+    			loop4--;
+    		}
+    		loop3--;
+    		string1 = string1 + "\n";
+    		loop5--;
+    	}
+    	return string1;
+    	*/
+    	String string1 = "";
+    	for(int j=n; j>0; j--) {
+    		for(int i=j; i>0; i--) {
+    			string1 += 1;
+    		}
+    		string1 += "\n";
+    	}
+    	return string1;
     }
 
     public static void main(String[] args){
