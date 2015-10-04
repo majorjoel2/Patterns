@@ -36,7 +36,7 @@ public class Countdown {
     	String string1 = "";
     	for(int j=n; j>0; j--) {
     		for(int i=j; i>0; i--) {
-    			string1 += 1;
+    			string1 += i;
     		}
     		string1 += "\n";
     	}
